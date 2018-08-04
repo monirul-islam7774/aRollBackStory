@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>A Rollback Story</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- gallery -->
+<link rel="stylesheet" href="css/lightGallery.css" type="text/css" media="all" />
+<!-- //gallery -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet">
+
+<!-- //font-awesome icons -->
+<link href="//fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Jura:300,400,500,600" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+<!-- header -->
+
+	<div class="w3_navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+
+                    <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse_mobile">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>-->
+					<div class="w3_navigation_pos">
+						<h3><a href="index.html">A Rollback Story</a></h3>
+					</div>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right">
+					<nav class="cl-effect-5" id="cl-effect-5">
+                        <ul class="nav navbar-nav pull-right" style="margin-top: 0.5%">
+                            <li><a href="https://store.steampowered.com/app/886390/A_RollBack_Story/" target="_blank"><span data-hover="Donate">Donate</span></a></li>
+                            <li style="margin-top: -4%"><a href="https://store.steampowered.com/app/886390/A_RollBack_Story/" target="_blank" class="btn btn-lg btn-danger"><span style="font-size: small; width: 150px; height: 25px;margin-top: 7px" data-hover="Download">Download</span></a></li>
+                        </ul>
+						<ul class="nav navbar-nav">
+							<li><a href="https://iquantile.com" target="_blank"><span data-hover="Home">Home</span></a></li>
+							<li><a href="#gallery" class="scroll"><span data-hover="Gallery">Gallery</span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</nav>
+		</div>
+	</div>
+<!-- //header -->
+<!-- banner -->
+<!--Carousel Wrapper-->
+<!--<video class=" z-depth-1 sizeOfCanvas" autoplay="autoplay" loop muted playsinline>
+	<source  src="video/rollback.mp4" type="video/mp4" />
+</video>-->
+<!--mobile upto 767px-->
+<div class="hidden-sm hidden-md hidden-lg col-xs-12" >
+
+	<img class="sizeOfCanvas" src="images/gif/transition.gif">
+
+</div>
+<!--mobile upto 767px-->
+
+<!--tablet upto 992px-->
+<div class="hidden-xs hidden-md hidden-lg col-sm-12" >
+
+	<img class="sizeOfCanvasSm" src="images/gif/transition.gif">
+
+</div>
+<!--tablet upto 992px-->
+<!--laptop upto 1199px-->
+<div class="hidden-xs hidden-sm hidden-lg col-md-12" >
+
+	<img class="sizeOfCanvasSm" src="images/gif/transition.gif">
+
+</div>
+<!--laptop upto 1199px-->
+
+<!--desktop upto 1199px-->
+<div class="hidden-xs hidden-sm hidden-md col-lg-11 col-lg-offset-1" >
+
+	<img class="sizeOfCanvaslg" src="images/gif/transition.gif">
+
+</div>
+<!--desktop upto 1199px-->
+
+<!--Carousel Wrapper-->
+<!-- //banner -->
+<!--trailer-->
+
+<div style="margin-top: 5%">
+	<h3 class="w3l_head w3l_head1">Trailer</h3>
+	<p class="w3ls_head_para w3ls_head_para1">See the trailer before dive into playing</p>
+
+</div>
+<div class="sizeOfCanvasTrailer embed-responsive embed-responsive-16by9">
+
+		<video controls poster="images/cover.png">
+
+			<source src="video/trailer.mp4"/>
+
+		</video>
+
+</div>
+
+<!--trailer-->
+
+<!-- about -->
+	<div class="about" id="story">
+		<div class="container">
+			<div class="col-md-4 agileits_about_left pull-left">
+				<h3 class="w3l_head">Story</h3>
+			</div>
+			<div class="agileits_banner_bottom_grids">
+				<div class="col-md-4 agileits_banner_bottom_grid_l">
+					<p>This is a story of two nation. Just like every other story one nation attacked the other one.
+						The attacked nation is in turmoils. Our hero appears out of nowhere to save the day.
+						But little did he know the game developer was not on his side.Can our hero overcome the hardships and save his nation?
+						Find that out by guiding our hero on his epic journey.</p>
+				</div>
+				<div class="col-md-6 agileits_banner_bottom_grid_r pull-right" >
+					<div class="agileits_banner_btm_grid_r">
+						<img src="images/story/storylarge.jpg" alt=" " class="img-responsive">
+						<div class="agileits_banner_btm_grid_r_pos">
+							<img src="images/story/storysmall.jpg" alt=" " class="img-responsive">
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<div class="about" id="gameplay">
+	<div class="container">
+		<div class="col-md-4 agileits_about_left pull-right">
+			<h3 class="w3l_head">Gameplay</h3>
+		</div>
+		<div class="agileits_banner_bottom_grids">
+			<div class="col-md-4 agileits_banner_bottom_grid_l" style="float: right">
+				<p>Guide the ball left or right and jump to make progress. You will have to interact with the world to move forward.
+					And Try Not to die too much , Else the game might break......</p>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-6">
+				<div id="myCarousel" style="margin-top: -20%" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="images/gif/gameplay1.gif" alt="Los Angeles" style="width:100%;">
+						</div>
+
+						<div class="item">
+							<img src="images/gif/gameplay2.gif" alt="Chicago" style="width:100%;">
+						</div>
+
+						<div class="item">
+							<img src="images/gif/gameplay3.gif" alt="New york" style="width:100%;">
+						</div>
+						<div class="item">
+							<img src="images/gif/gameplay4.gif" alt="New york" style="width:100%;">
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!-- //about-bottom -->
+<!-- services -->
+<div class="services" id="services">
+		 <h3 class="w3l_head w3l_head1">Features</h3>
+		<div class="services-agile-w3l">
+		<div class="col-md-3 services-gd text-center">
+			<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+				<a class="hi-icon"><img src="images/features/game-controller.png" alt=" " /></a>
+			</div>
+			<h4>Controller Support</h4>
+		</div>
+
+       <div class="col-md-3 services-gd text-center">
+			<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+				<a class="hi-icon"><img src="images/features/winner.png" alt=" " /></a>
+			</div>
+			<h4>Challenging Gameplay</h4>
+		</div>
+		<div class="col-md-3 services-gd text-center">
+			<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+				<a class="hi-icon"><img src="images/features/compact-disc.png" alt=" " /></a>
+			</div>
+			<h4>Comical Music</h4>
+		</div>
+		<div class="col-md-3 services-gd text-center">
+			<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+				<a class="hi-icon"><img src="images/features/brush.png" alt=" " /></a>
+			</div>
+			<h4>Simplistic Design</h4>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- //services -->
+
+<!-- gallery -->
+	<div class="team-bottom" id="gallery">
+		<div class="container">
+			<h3 class="w3l_head w3l_head1">Image Gallery</h3>
+			<p class="w3ls_head_para w3ls_head_para1">Surf into images</p>
+			<div class="w3layouts_gallery_grids">
+				<ul class="w3l_gallery_grid" id="lightGallery">
+					<li data-src="images/gallery/gallery1.png" data-responsive-src="images/gallery/gallery1.png">
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/gallery/gallery1.png" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> View Fullscreen</h4>
+
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-src="images/gallery/gallery2.png" data-responsive-src="images/gallery/gallery2.png">
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/gallery/gallery2.png" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> View Fullscreen</h4>
+
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-src="images/gallery/gallery3.png" data-responsive-src="images/gallery/gallery3.png">
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/gallery/gallery3.png" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> View Fullscreen</h4>
+
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-src="images/gallery/gallery4.png" data-responsive-src="images/gallery/gallery4.png">
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/gallery/gallery4.png" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> View Fullscreen</h4>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-src="images/cover.png" data-responsive-src="images/cover.png">
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/cover.png" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> View Fullscreen</h4>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-src="images/gallery/gallery6.png" data-responsive-src="images/gallery/gallery6.png">
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/gallery/gallery6.png" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> View Fullscreen</h4>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-src="images/gallery/gallery7.png" data-responsive-src="images/gallery/gallery7.png">
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/gallery/gallery7.png" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> View Fullscreen</h4>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-src="images/gallery/gallery8.png" data-responsive-src="images/gallery/gallery8.png">
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/gallery/gallery8.png" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> View Fullscreen</h4>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li data-src="images/gallery/gallery9.png" data-responsive-src="images/gallery/gallery9.png">
+						<div class="w3layouts_gallery_grid1 box">
+							<a href="#">
+								<img src="images/gallery/gallery9.png" alt=" " class="img-responsive" />
+								<div class="overbox">
+									<h4 class="title overtext"> View Fullscreen</h4>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //gallery -->
+<!-- video gallery-->
+<!-- Grid row -->
+<div>
+
+    <div style="overflow: hidden;" >
+        <h3 class="w3l_head w3l_head1">Video Gallery</h3>
+        <p class="w3ls_head_para w3ls_head_para1">Surf into videos</p>
+        <br>
+        <br>
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+            <!--Modal: Name-->
+            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+
+                    <!--Content-->
+                    <div class="modal-content">
+
+                        <!--Body-->
+                        <div class="modal-body mb-0 p-0">
+
+                            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6hAtkqzOJWg" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                        <!--Footer-->
+                        <div class="modal-footer justify-content-center">
+                            <span class="mr-4">Spread the word!</span>
+                            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
+                            <!--Twitter-->
+                            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
+                            <!--Google +-->
+                            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
+
+                            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+                        </div>
+
+                    </div>
+                    <!--/.Content-->
+
+                </div>
+            </div>
+            <!--Modal: Name-->
+
+            <div style="cursor: pointer; margin: 5%">
+                <a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/cover.png" alt="video" data-toggle="modal" data-target="#modal1"></a>
+            </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+            <!--Modal: Name-->
+            <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+
+                    <!--Content-->
+                    <div class="modal-content">
+
+                        <!--Body-->
+                        <div class="modal-body mb-0 p-0">
+
+                            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6hAtkqzOJWg" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                        <!--Footer-->
+                        <div class="modal-footer justify-content-center">
+                            <span class="mr-4">Spread the word!</span>
+                            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
+                            <!--Twitter-->
+                            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
+                            <!--Google +-->
+                            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
+                            <!--Linkedin-->
+                            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fa fa-linkedin"></i></a>
+
+                            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+                        </div>
+
+                    </div>
+                    <!--/.Content-->
+
+                </div>
+            </div>
+            <!--Modal: Name-->
+
+            <div style="cursor: pointer; margin: 5%">
+
+                <a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/cover.png" alt="video" data-toggle="modal" data-target="#modal6"></a>
+
+            </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+            <!--Modal: Name-->
+            <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+
+                    <!--Content-->
+                    <div class="modal-content">
+
+                        <!--Body-->
+                        <div class="modal-body mb-0 p-0">
+
+                            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6hAtkqzOJWg" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                        <!--Footer-->
+                        <div class="modal-footer justify-content-center">
+                            <span class="mr-4">Spread the word!</span>
+                            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
+                            <!--Twitter-->
+                            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
+                            <!--Google +-->
+                            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
+                            <!--Linkedin-->
+                            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fa fa-linkedin"></i></a>
+
+                            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+                        </div>
+
+                    </div>
+                    <!--/.Content-->
+
+                </div>
+            </div>
+            <!--Modal: Name-->
+
+            <div style="cursor: pointer; margin: 5%">
+
+                <a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/cover.png" alt="video" data-toggle="modal" data-target="#modal4"></a>
+
+            </div>
+
+
+        </div>
+        <!-- Grid column -->
+
+    </div>
+
+</div>
+
+
+<!-- video gallery -->
+<!-- projects -->
+<!--
+	<div class="projects" id="projects">
+		<div class="container">
+			<div class="port-head">
+					 <h3 class="w3l_head w3l_head1">Latest News</h3>
+			         <p class="w3ls_head_para w3ls_head_para1">View feedback </p>
+			</div>
+		</div>
+		<div class="projects-grids">
+				<div class="sreen-gallery-cursual">
+
+			<div id="owl-demo" class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="projects-agile-grid-info">
+							<img src="images/news1.jpg" alt="" />
+							<div class="projects-grid-caption">
+
+								<h4>Feed</h4>
+								<p>demo text</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="projects-agile-grid-info">
+							<img src="images/news01.png" alt="" />
+							<div class="projects-grid-caption">
+
+								<h4>Feed</h4>
+								<p>demo text</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="projects-agile-grid-info">
+							<img src="images/news2.jpg" alt="" />
+							<div class="projects-grid-caption">
+
+								<h4>Feed</h4>
+								<p>demo text</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="projects-agile-grid-info">
+							<img src="images/news02.png" alt="" />
+							<div class="projects-grid-caption">
+
+								<h4>Feed</h4>
+								<p>demo text</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="projects-agile-grid-info">
+							<img src="images/news3.jpg" alt="" />
+							<div class="projects-grid-caption">
+
+								<h4>Feed</h4>
+								<p>demo text</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="projects-agile-grid-info">
+							<img src="images/news03.png" alt="" />
+							<div class="projects-grid-caption">
+
+								<h4>Feed</h4>
+								<p>demo text</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="projects-agile-grid-info">
+							<img src="images/news4.jpg" alt="" />
+							<div class="projects-grid-caption">
+
+								<h4>Feed</h4>
+								<p>demo text</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="projects-agile-grid-info">
+							<img src="images/news04.png" alt="" />
+							<div class="projects-grid-caption">
+								<h4>Feed</h4>
+								<p>demo text</p>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	</div>
+-->
+	<!-- //projects -->
+<!-- mail -->
+	<div class="mail" id="mail">
+		<div class="container">
+			<h3 class="w3l_head w3l_head1">Feed back</h3>
+			<p class="w3ls_head_para w3ls_head_para1">send us a message</p>
+			<div class="w3_mail_grids">
+				<form action="#" method="post">
+					<div class="col-md-6 w3_agile_mail_grid">
+						<span class="input input--ichiro">
+							<input class="input__field input__field--ichiro" type="text" id="input-25" placeholder=" " required="">
+							<label class="input__label input__label--ichiro" for="input-25">
+								<span class="input__label-content input__label-content--ichiro">Your Name</span>
+							</label>
+						</span>
+						<span class="input input--ichiro">
+							<input class="input__field input__field--ichiro" type="email" id="input-26" placeholder=" " required="">
+							<label class="input__label input__label--ichiro" for="input-26">
+								<span class="input__label-content input__label-content--ichiro">Your Email</span>
+							</label>
+						</span>
+						<span class="input input--ichiro">
+							<input class="input__field input__field--ichiro" type="text" id="input-27" placeholder=" " required="">
+							<label class="input__label input__label--ichiro" for="input-27">
+								<span class="input__label-content input__label-content--ichiro">Your Phone Number</span>
+							</label>
+						</span>
+
+					</div>
+					<div class="col-md-6 w3_agile_mail_grid">
+						<textarea name="Message" placeholder="Your Message" required=""></textarea>
+						<input type="submit" value="Submit">
+					</div>
+					<div class="clearfix"> </div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- footer -->
+
+	<div class="w3l_footer">
+		<div style="margin-bottom: 5%;margin-bottom: 5%;margin-left: auto;margin-right: auto;width: 50%;" class="input-group">
+			<div class="w3ls_footer_grid_leftr_subscribe">
+				<h3>Subscribe</h3>
+				<input style="margin: 2%" type="email" class="form-control" placeholder="Enter your email">
+				<span class="input-group-btn">
+			 <button class="btn btn-theme" type="submit">Subscribe</button>
+			 </span>
+			</div>
+
+		</div>
+		<div class="container">
+
+			<div class="w3ls_footer_grids">
+
+				<div class="w3ls_footer_grid">
+                    <a href="https://www.facebook.com/games.iQuantile/" target="_blank">
+                    <div class="col-md-4 w3ls_footer_grid_left">
+						<div class="w3ls_footer_grid_leftl">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</div>
+						<div class="w3ls_footer_grid_leftr">
+							<h3>Facebook</h3>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+                    </a>
+                    <a href="https://twitter.com/iquantile" target="_blank">
+                    <div class="col-md-4 w3ls_footer_grid_left">
+						<div class="w3ls_footer_grid_leftl">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</div>
+						<div class="w3ls_footer_grid_leftr">
+							<h3>Twitter</h3>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+                    </a>
+                    <a href="https://www.instagram.com/iquantilegames/" target="_blank">
+                    <div class="col-md-4 w3ls_footer_grid_left">
+						<div class="w3ls_footer_grid_leftl">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
+						<div class="w3ls_footer_grid_leftr">
+							<h3>Instagram</h3>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+                    </a>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="w3l_footer_pos">
+			<p>© 2018 A Roll Back Story. All Rights Reserved | Design by <a href="https://iquantile.com/" target="_blank">iQuantile</a></p>
+			<p><a href="https://www.iquantile.com/privacy" target="_blank">Privacy policy</a>&nbsp; &nbsp; <a href="https://www.iquantile.com/terms" target="_blank">Terms of use</a></p>
+		</div>
+	</div>
+<!-- //footer -->
+
+<!--banner Slider starts Here-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+						<script src="js/responsiveslides.min.js"></script>
+							<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								  // Slideshow 4
+								  $("#slider3").responsiveSlides({
+									auto: true,
+									pager:false,
+									nav:true,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									  $('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+									  $('.events').append("<li>after event fired.</li>");
+									}
+								  });
+
+								});
+							 </script>
+							 <!-- js -->
+<!-- start-smoth-scrolling -->
+	<script src="js/lightGallery.js"></script>
+	<script>
+    	 $(document).ready(function() {
+			$("#lightGallery").lightGallery({
+				mode:"fade",
+				speed:800,
+				caption:true,
+				desc:true,
+				mobileSrc:true
+			});
+		});
+    </script>
+
+<script src="js/owl.carousel.js"></script>
+<link href="css/owl.theme.css" rel="stylesheet">
+ <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+<script>
+$(document).ready(function() {
+	$("#owl-demo").owlCarousel({
+
+		autoPlay: 3000, //Set AutoPlay to 3 seconds
+		  autoPlay : true,
+		   navigation :true,
+
+		items : 4,
+		itemsDesktop : [640,5],
+		itemsDesktopSmall : [414,4]
+
+	});
+
+});
+</script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<!-- //js -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+	</script>
+
+
+<!-- //here ends scrolling icon -->
+<script>
+
+  $('#modal1').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
+  });
+
+  $('#modal6').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#modal6 iframe').attr("src", $("#modal6 iframe").attr("src"));
+  });
+
+  $('#modal4').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#modal4 iframe').attr("src", $("#modal4 iframe").attr("src"));
+  });
+
+</script>
+
+</body>
+</html>
