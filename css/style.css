@@ -11,6 +11,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     src: url('Funhouse.ttf');
 }
 
+/* start of loader display */
+/*#loading {
+    background: rgba(20,1,4,0.65);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: block;
+    z-index: 2000
+}
+
+#loading-image {
+    background: rgba(20, 1, 4, 0.82);
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: 2000
+}*/
+/* end of loader display */
+
 html, body{
     font-size: 100%;
     font-family: 'myFirstFont', sans-serif;
@@ -168,7 +189,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 .w3_navigation_pos {
     position: absolute;
     top: 24%;
-    left: 37%;
+    left: 35%;
     z-index: 999;
 }
 .w3_navigation_pos h3 a {
@@ -1373,8 +1394,8 @@ ul#lightGallery {
         line-height: 0.8em;
     }
     .w3_navigation_pos {
-        top: 28%;
-        left: 33.5%;
+        top: 26%;
+        left: 25%;
     }
     .w3layouts_header_right {
         float: right;
@@ -1469,8 +1490,8 @@ ul#lightGallery {
         margin: 0em 0 0em 0;
     }
     .w3_navigation_pos {
-        top: 12%;
-        left: 33.5%;
+        top: 28%;
+        left: 25%;
     }
     .w3layouts_header_left p {
         float: left;
@@ -1516,6 +1537,9 @@ ul#lightGallery {
         position: relative;
         width: 40%;
     }
+    .sectionHide{
+        display: none;
+    }
 
 }
 @media (max-width: 768px){
@@ -1556,27 +1580,30 @@ ul#lightGallery {
     .projects {
         padding: 3em 0 0 0;
     }
+    .sectionHide{
+        display: none;
+    }
 
 }
 @media (max-width: 767px){
     .navbar-default .navbar-toggle {
-        border-color: #212121;
+        border-color: #c3c3c3e3;
     }
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #212121;
+        background-color: #c3c3c3e3;
     }
     .navbar-toggle {
         margin: 1em 0;
     }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-        background-color: transparent;
+        background-color: #d9534f;
     }
 
     .navbar-nav {
         float: none;
         margin: 0;
         text-align: center;
-        background: #dfdfdf;
+        background: #000;
     }
     .navbar-nav > li > a {
         margin: 2em 0;

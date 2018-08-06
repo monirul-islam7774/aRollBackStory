@@ -25,28 +25,29 @@
 
 <body>
 <!-- header -->
-
 <div class="w3_navigation">
 	<div class="container">
 		<nav class="navbar navbar-default">
 			<div class="navbar-header navbar-left">
 
-				<!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse_mobile">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse_mobile">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>-->
+                </button>
 				<div class="w3_navigation_pos">
 					<h3><a href="index.html">A Rollback Story</a></h3>
 				</div>
+
 			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-right">
+
+			<!-- for large screen navbar -->
+			<div class="collapse navbar-collapse navbar-right hidden-xs">
 				<nav class="cl-effect-5" id="cl-effect-5">
 					<ul class="nav navbar-nav pull-right" style="margin-top: 0.5%">
 						<li><a href="https://store.steampowered.com/app/886390/A_RollBack_Story/" target="_blank"><span data-hover="Donate">Donate</span></a></li>
-						<li style="margin-top: -4%"><a href="https://store.steampowered.com/app/886390/A_RollBack_Story/" target="_blank" class="btn btn-lg btn-danger"><span style="font-size: small; width: 150px; height: 25px;margin-top: 7px" data-hover="Download">Download</span></a></li>
+						<li style="margin-top: -4%"><a href="https://store.steampowered.com/app/886390/A_RollBack_Story/" target="_blank" class="btn btn-lg btn-danger"><span style="font-size: small; width: 150px; height: 25px;margin-top: 7px" data-hover="Demo">Demo</span></a></li>
 					</ul>
 					<ul class="nav navbar-nav">
 						<li><a href="https://iquantile.com" target="_blank"><span data-hover="Home">Home</span></a></li>
@@ -54,12 +55,29 @@
 					</ul>
 				</nav>
 			</div>
+			<!-- for large screen navbar -->
+
+			<!--for small screen navbar-->
+			<div class="collapse navbar-collapse navbar-right hidden-sm hidden-md hidden-lg sectionHide" id="collapse_mobile">
+				<nav class="cl-effect-5" >
+					<ul class="nav navbar-nav" style="margin-top: 0.5%">
+						<li><a href="https://iquantile.com" target="_blank"><span data-hover="Home">Home</span></a></li>
+						<li><a href="#gallery" class="scroll"><span data-hover="Gallery">Gallery</span></a></li>
+						<li><a href="https://store.steampowered.com/app/886390/A_RollBack_Story/" target="_blank"><span data-hover="Donate">Donate</span></a></li>
+						<li><a href="https://store.steampowered.com/app/886390/A_RollBack_Story/" target="_blank" class="btn btn-lg btn-danger"><span style="font-size: small; width: 150px; height: 25px;margin-top: 7px;line-height: 1" data-hover="Demo">Demo</span></a></li>
+					</ul>
+				</nav>
+			</div>
+			<!--for small screen navbar-->
+
 		</nav>
 	</div>
 </div>
 <!-- //header -->
+
 <!-- banner -->
 <!--Carousel Wrapper-->
+
 <!--mobile upto 767px-->
 <div style="margin-bottom: 5%; margin-top: 75px" class="hidden-sm hidden-md hidden-lg col-xs-12" >
 
@@ -75,6 +93,7 @@
 
 </div>
 <!--tablet upto 992px-->
+
 <!--laptop upto 1199px-->
 <div style="margin-bottom: 5%; margin-top: 75px" class="hidden-xs hidden-sm hidden-lg col-md-12" >
 
@@ -93,8 +112,8 @@
 
 <!--Carousel Wrapper-->
 <!-- //banner -->
-<!--trailer-->
 
+<!--trailer-->
 <div>
 	<h3 class="w3l_head w3l_head1">Trailer</h3>
 	<p class="w3ls_head_para w3ls_head_para1">See the trailer before dive into playing</p>
@@ -109,23 +128,30 @@
 	</video>
 
 </div>
-
 <!--trailer-->
 
-<!-- about -->
+<!--download steam-->
+<div style="margin-bottom: 25%; margin-top: 5%">
+
+	<iframe class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" src="https://store.steampowered.com/widget/886390/" frameborder="0" width="646" height="190"></iframe>
+
+</div>
+<!--download steam-->
+
+<!-- story -->
 <div class="about" id="story">
 	<div class="container">
 		<div class="col-md-4 agileits_about_left pull-left">
 			<h3 class="w3l_head">Story</h3>
 		</div>
 		<div class="agileits_banner_bottom_grids">
-			<div class="col-md-4 agileits_banner_bottom_grid_l">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 agileits_banner_bottom_grid_l">
 				<p>This is a story of two nation. Just like every other story one nation attacked the other one.
 					The attacked nation is in turmoils. Our hero appears out of nowhere to save the day.
 					But little did he know the game developer was not on his side.Can our hero overcome the hardships and save his nation?
 					Find that out by guiding our hero on his epic journey.</p>
 			</div>
-			<div class="col-md-6 agileits_banner_bottom_grid_r pull-right" >
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 agileits_banner_bottom_grid_r pull-right" >
 				<div class="agileits_banner_btm_grid_r">
 					<img src="images/story/storylarge.jpg" alt=" " class="img-responsive">
 					<div class="agileits_banner_btm_grid_r_pos">
@@ -137,18 +163,21 @@
 		</div>
 	</div>
 </div>
+<!-- story -->
+
+<!--gameplay-->
 <div class="about" id="gameplay">
 	<div class="container">
 		<div class="col-md-4 agileits_about_left pull-right">
 			<h3 class="w3l_head">Gameplay</h3>
 		</div>
 		<div class="agileits_banner_bottom_grids">
-			<div class="col-md-4 agileits_banner_bottom_grid_l" style="float: right">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 agileits_banner_bottom_grid_l" style="float: right">
 				<p>Guide the ball left or right and jump to make progress. You will have to interact with the world to move forward.
 					And Try Not to die too much , Else the game might break......</p>
 			</div>
-			<div class="col-xs-12 col-md-6 col-lg-6">
-				<div id="myCarousel" style="margin-top: -20%" class="carousel slide" data-ride="carousel">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
 						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -190,7 +219,8 @@
 		</div>
 	</div>
 </div>
-<!-- //about-bottom -->
+<!--gameplay-->
+
 <!-- services -->
 <div class="services" id="services">
 	<h3 class="w3l_head w3l_head1">Features</h3>
@@ -330,11 +360,11 @@
 	</div>
 </div>
 <!-- //gallery -->
-<!-- video gallery-->
-<!-- Grid row -->
-<div>
 
-	<div style="overflow: hidden;" >
+<!-- video gallery-->
+<div>
+	<!-- larger screen-->
+	<div style="overflow: hidden;" class="hidden-xs" >
 		<h3 class="w3l_head w3l_head1">Video Gallery</h3>
 		<p class="w3ls_head_para w3ls_head_para1">Surf into videos</p>
 		<br>
@@ -344,42 +374,46 @@
 
 			<!--Modal: Name-->
 			<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
 				<div class="modal-dialog modal-lg" role="document">
-
 					<!--Content-->
-					<div class="modal-content">
 
+					<div class="modal-content">
 						<!--Body-->
+
 						<div class="modal-body mb-0 p-0">
 
 							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6hAtkqzOJWg" allowfullscreen></iframe>
+
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KsZCiqLsWus" allowfullscreen></iframe>
+
 							</div>
+							<!--Footer-->
+							<div class="modal-footer justify-content-center">
+								<span class="mr-4">Share it now</span>
+								<a href="https://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v=W-GKy6en9i0&t=1s" target="_blank" type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
+								<!--Twitter-->
+								<a href="https://twitter.com/share?url=https://www.youtube.com/watch?v=W-GKy6en9i0&t=1s" target="_blank" type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
+								<!--Google +-->
+								<a href="https://plus.google.com/share?url=https://www.youtube.com/watch?v=W-GKy6en9i0&t=1s" target="_blank"type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
+								<!--Linkedin-->
+								<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
 
-						</div>
-
-						<!--Footer-->
-						<div class="modal-footer justify-content-center">
-							<span class="mr-4">Spread the word!</span>
-							<a type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
-							<!--Twitter-->
-							<a type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
-							<!--Google +-->
-							<a type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
-
-							<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-
+							</div>
 						</div>
 
 					</div>
 					<!--/.Content-->
 
 				</div>
+
 			</div>
 			<!--Modal: Name-->
 
 			<div style="cursor: pointer; margin: 5%">
-				<a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/cover.png" alt="video" data-toggle="modal" data-target="#modal1"></a>
+
+				<a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/gallery/gallery4.png" alt="video" data-toggle="modal" data-target="#modal1"></a>
+
 			</div>
 
 		</div>
@@ -399,22 +433,19 @@
 						<div class="modal-body mb-0 p-0">
 
 							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6hAtkqzOJWg" allowfullscreen></iframe>
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fHBJr3hvu44" allowfullscreen></iframe>
 							</div>
 
 						</div>
-
 						<!--Footer-->
 						<div class="modal-footer justify-content-center">
-							<span class="mr-4">Spread the word!</span>
-							<a type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
+							<span class="mr-4">Share it now</span>
+							<a href="https://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v=fHBJr3hvu44" target="_blank" type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
 							<!--Twitter-->
-							<a type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
+							<a href="https://twitter.com/share?url=https://www.youtube.com/watch?v=fHBJr3hvu44" target="_blank" type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
 							<!--Google +-->
-							<a type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
+							<a href="https://plus.google.com/share?url=https://www.youtube.com/watch?v=fHBJr3hvu44" target="_blank"type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
 							<!--Linkedin-->
-							<a type="button" class="btn-floating btn-sm btn-ins"><i class="fa fa-linkedin"></i></a>
-
 							<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
 
 						</div>
@@ -428,7 +459,7 @@
 
 			<div style="cursor: pointer; margin: 5%">
 
-				<a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/cover.png" alt="video" data-toggle="modal" data-target="#modal6"></a>
+				<a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/gallery/gallery1.png" alt="video" data-toggle="modal" data-target="#modal6"></a>
 
 			</div>
 
@@ -449,22 +480,20 @@
 						<div class="modal-body mb-0 p-0">
 
 							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6hAtkqzOJWg" allowfullscreen></iframe>
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W-GKy6en9i0" allowfullscreen></iframe>
 							</div>
 
 						</div>
 
 						<!--Footer-->
 						<div class="modal-footer justify-content-center">
-							<span class="mr-4">Spread the word!</span>
-							<a type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
+							<span class="mr-4">Share it now</span>
+							<a href="https://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v=KsZCiqLsWus" target="_blank" type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
 							<!--Twitter-->
-							<a type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
+							<a href="https://twitter.com/share?url=https://www.youtube.com/watch?v=KsZCiqLsWus" target="_blank" type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
 							<!--Google +-->
-							<a type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
+							<a href="https://plus.google.com/share?url=https://www.youtube.com/watch?v=KsZCiqLsWus" target="_blank"type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
 							<!--Linkedin-->
-							<a type="button" class="btn-floating btn-sm btn-ins"><i class="fa fa-linkedin"></i></a>
-
 							<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
 
 						</div>
@@ -478,7 +507,159 @@
 
 			<div style="cursor: pointer; margin: 5%">
 
-				<a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/cover.png" alt="video" data-toggle="modal" data-target="#modal4"></a>
+				<a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/gallery/gallery3.png" alt="video" data-toggle="modal" data-target="#modal4"></a>
+
+			</div>
+
+
+		</div>
+		<!-- Grid column -->
+
+	</div>
+	<div style="overflow: hidden;" class="hidden-lg hidden-md hidden-sm" >
+		<h3 class="w3l_head w3l_head1">Video Gallery</h3>
+		<p class="w3ls_head_para w3ls_head_para1">Surf into videos</p>
+		<br>
+		<br>
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+			<!--Modal: Name-->
+			<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+				<div style="width: 75%" class="modal-dialog modal-lg" role="document">
+					<!--Content-->
+
+					<div class="modal-content">
+						<!--Body-->
+
+						<div class="modal-body mb-0 p-0">
+
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KsZCiqLsWus" allowfullscreen></iframe>
+
+							</div>
+							<!--Footer-->
+							<div class="modal-footer justify-content-center">
+								<span class="mr-4">Share it now</span>
+								<a href="https://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v=W-GKy6en9i0&t=1s" target="_blank" type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
+								<!--Twitter-->
+								<a href="https://twitter.com/share?url=https://www.youtube.com/watch?v=W-GKy6en9i0&t=1s" target="_blank" type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
+								<!--Google +-->
+								<a href="https://plus.google.com/share?url=https://www.youtube.com/watch?v=W-GKy6en9i0&t=1s" target="_blank"type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
+								<!--Linkedin-->
+								<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+							</div>
+						</div>
+
+					</div>
+					<!--/.Content-->
+
+				</div>
+
+			</div>
+			<!--Modal: Name-->
+
+			<div style="cursor: pointer; margin: 5%">
+
+				<a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/gallery/gallery4.png" alt="video" data-toggle="modal" data-target="#modal2"></a>
+
+			</div>
+
+		</div>
+		<!-- Grid column -->
+
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+			<!--Modal: Name-->
+			<div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div style="width: 75%" class="modal-dialog modal-lg" role="document">
+
+					<!--Content-->
+					<div class="modal-content">
+
+						<!--Body-->
+						<div class="modal-body mb-0 p-0">
+
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fHBJr3hvu44" allowfullscreen></iframe>
+							</div>
+
+						</div>
+						<!--Footer-->
+						<div class="modal-footer justify-content-center">
+							<span class="mr-4">Share it now</span>
+							<a href="https://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v=fHBJr3hvu44" target="_blank" type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
+							<!--Twitter-->
+							<a href="https://twitter.com/share?url=https://www.youtube.com/watch?v=fHBJr3hvu44" target="_blank" type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
+							<!--Google +-->
+							<a href="https://plus.google.com/share?url=https://www.youtube.com/watch?v=fHBJr3hvu44" target="_blank"type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
+							<!--Linkedin-->
+							<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+						</div>
+
+					</div>
+					<!--/.Content-->
+
+				</div>
+			</div>
+			<!--Modal: Name-->
+
+			<div style="cursor: pointer; margin: 5%">
+
+				<a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/gallery/gallery1.png" alt="video" data-toggle="modal" data-target="#modal7"></a>
+
+			</div>
+
+		</div>
+		<!-- Grid column -->
+
+		<!-- Grid column -->
+		<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+
+			<!--Modal: Name-->
+			<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div style="width: 75%" class="modal-dialog modal-lg" role="document">
+
+					<!--Content-->
+					<div class="modal-content">
+
+						<!--Body-->
+						<div class="modal-body mb-0 p-0">
+
+							<div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W-GKy6en9i0" allowfullscreen></iframe>
+							</div>
+
+						</div>
+
+						<!--Footer-->
+						<div class="modal-footer justify-content-center">
+							<span class="mr-4">Share it now</span>
+							<a href="https://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v=KsZCiqLsWus" target="_blank" type="button" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"></i></a>
+							<!--Twitter-->
+							<a href="https://twitter.com/share?url=https://www.youtube.com/watch?v=KsZCiqLsWus" target="_blank" type="button" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"></i></a>
+							<!--Google +-->
+							<a href="https://plus.google.com/share?url=https://www.youtube.com/watch?v=KsZCiqLsWus" target="_blank"type="button" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"></i></a>
+							<!--Linkedin-->
+							<button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+						</div>
+
+					</div>
+					<!--/.Content-->
+
+				</div>
+			</div>
+			<!--Modal: Name-->
+
+			<div style="cursor: pointer; margin: 5%">
+
+				<a><img style="max-width: 100%" class="img-fluid z-depth-1" src="images/gallery/gallery3.png" alt="video" data-toggle="modal" data-target="#modal5"></a>
 
 			</div>
 
@@ -489,107 +670,8 @@
 	</div>
 
 </div>
-
-
 <!-- video gallery -->
-<!-- projects -->
-<!--
-	<div class="projects" id="projects">
-		<div class="container">
-			<div class="port-head">
-					 <h3 class="w3l_head w3l_head1">Latest News</h3>
-			         <p class="w3ls_head_para w3ls_head_para1">View feedback </p>
-			</div>
-		</div>
-		<div class="projects-grids">
-				<div class="sreen-gallery-cursual">
 
-			<div id="owl-demo" class="owl-carousel owl-theme">
-					<div class="item">
-						<div class="projects-agile-grid-info">
-							<img src="images/news1.jpg" alt="" />
-							<div class="projects-grid-caption">
-
-								<h4>Feed</h4>
-								<p>demo text</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="projects-agile-grid-info">
-							<img src="images/news01.png" alt="" />
-							<div class="projects-grid-caption">
-
-								<h4>Feed</h4>
-								<p>demo text</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="projects-agile-grid-info">
-							<img src="images/news2.jpg" alt="" />
-							<div class="projects-grid-caption">
-
-								<h4>Feed</h4>
-								<p>demo text</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="projects-agile-grid-info">
-							<img src="images/news02.png" alt="" />
-							<div class="projects-grid-caption">
-
-								<h4>Feed</h4>
-								<p>demo text</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="projects-agile-grid-info">
-							<img src="images/news3.jpg" alt="" />
-							<div class="projects-grid-caption">
-
-								<h4>Feed</h4>
-								<p>demo text</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="projects-agile-grid-info">
-							<img src="images/news03.png" alt="" />
-							<div class="projects-grid-caption">
-
-								<h4>Feed</h4>
-								<p>demo text</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="projects-agile-grid-info">
-							<img src="images/news4.jpg" alt="" />
-							<div class="projects-grid-caption">
-
-								<h4>Feed</h4>
-								<p>demo text</p>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="projects-agile-grid-info">
-							<img src="images/news04.png" alt="" />
-							<div class="projects-grid-caption">
-								<h4>Feed</h4>
-								<p>demo text</p>
-							</div>
-						</div>
-					</div>
-			</div>
-		</div>
-	</div>
-	</div>
--->
-<!-- //projects -->
 <!-- mail -->
 <div class="mail" id="mail">
 	<div class="container">
@@ -627,17 +709,16 @@
 		</div>
 	</div>
 </div>
-
+<!-- mail -->
 
 <!-- footer -->
-
 <div class="w3l_footer">
 	<div style="margin-bottom: 5%;margin-bottom: 5%;margin-left: auto;margin-right: auto;width: 50%;" class="input-group">
 		<div class="w3ls_footer_grid_leftr_subscribe">
 			<h3>Subscribe</h3>
-			<input style="margin: 2%" type="email" class="form-control" placeholder="Enter your email">
 			<span class="input-group-btn">
-			 <button class="btn btn-theme" type="submit">Subscribe</button>
+				<input type="email" class="form-control" placeholder="Enter your email">
+			 	<button style="margin-left: 5%" class="btn btn-theme" type="submit">Subscribe</button>
 			 </span>
 		</div>
 
@@ -760,28 +841,19 @@
     });
 </script>
 <!-- start-smoth-scrolling -->
+
 <!-- //js -->
 <script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
+
 <!-- here stars scrolling icon -->
 <script type="text/javascript">
     $(document).ready(function() {
-        /*
-            var defaults = {
-            containerID: 'toTop', // fading element id
-            containerHoverID: 'toTopHover', // fading element hover id
-            scrollSpeed: 1200,
-            easingType: 'linear'
-            };
-        */
-
         $().UItoTop({ easingType: 'easeOutQuart' });
-
     });
 </script>
-
-
 <!-- //here ends scrolling icon -->
+
 <script>
 
     $('#modal1').on('hidden.bs.modal', function (e) {
@@ -798,8 +870,28 @@
         // do something...
         $('#modal4 iframe').attr("src", $("#modal4 iframe").attr("src"));
     });
+// for mobile
+    $('#modal2').on('hidden.bs.modal', function (e) {
+        // do something...
+        $('#modal2 iframe').attr("src", $("#modal2 iframe").attr("src"));
+    });
 
+    $('#modal7').on('hidden.bs.modal', function (e) {
+        // do something...
+        $('#modal7 iframe').attr("src", $("#modal7 iframe").attr("src"));
+    });
+
+    $('#modal5').on('hidden.bs.modal', function (e) {
+        // do something...
+        $('#modal5 iframe').attr("src", $("#modal5 iframe").attr("src"));
+    });
 </script>
+
+<!--<script>
+
+    window.onload = function(){ document.getElementById("loading").style.display = "none" }
+
+</script>-->
 
 </body>
 </html>
